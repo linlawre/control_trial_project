@@ -85,7 +85,7 @@ void loop() {
 }
 
 
-void signals(void) {
+void signals() {
 
   Wire.beginTransmission(0x68);
   Wire.write(0x1A);
